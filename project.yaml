@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/MuhammadAdel612/argocd.git
+    repoURL: https://gitlab.com/MuhammadAdel612/argocd.git
     targetRevision: HEAD
-    path: main
+    path: dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
@@ -21,4 +21,3 @@ spec:
     automated:
       selfHeal: true
       prune: true
-
