@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-argo-pod
+  name: nginx-argocd-pod
 spec:
   containers:
   - name: nginx
